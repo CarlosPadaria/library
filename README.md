@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-    <img src="SCREENSHOT.gif" alt="Screenshot of the project">
+    <img src="LIBRARY.gif" alt="Screenshot of the project">
 </p>
 
 &nbsp;
