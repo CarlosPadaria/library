@@ -52,12 +52,14 @@ In progress...
 
 ### 🛠 Usage
 
+In progress...
+<!--
 1. Clone the repository:
 
 ```console
 git clone https://github.com/CarlosPadaria/library.git
 ```
-<!--
+
 2. Install the dependencies:
 
 ```console
