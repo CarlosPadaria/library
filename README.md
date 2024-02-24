@@ -43,8 +43,8 @@ In progress...
 
 ### 💻 Technologies
 
-* Frontend: [Inferno.js](https://www.infernojs.org/) including [inferno-bootstrap](https://github.com/jhsware/inferno-bootstrap) library
-* Backend: [Slim Framework](https://www.slimframework.com/)(PHP) and [Doctrine ORM](https://www.doctrine-project.org/)(PHP)
+* Frontend: [Inferno.js](https://www.infernojs.org/) including [inferno-bootstrap](https://github.com/jhsware/inferno-bootstrap) library;
+* Backend: [Slim Framework](https://www.slimframework.com/)(PHP) and [Doctrine ORM](https://www.doctrine-project.org/)(PHP).
 
 &nbsp;
 
