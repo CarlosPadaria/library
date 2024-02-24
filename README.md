@@ -130,18 +130,12 @@ This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
 
 &nbsp;
 
-<!--
+
 ### 🔗 Links
-
-> [!NOTE]  
-> This section is optional.
-
-- [Website](/)
-- [Documentation](/)
-- ...
+> [!IMPORTANT]  
+> Please consider reading the [Wiki](https://github.com/CarlosPadaria/library/wiki)
 
 &nbsp;
--->
 ---
 
 <p align="center">
