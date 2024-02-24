@@ -143,7 +143,7 @@ This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
 		Felipe Malicheski
 	</a>
 <p align="center">
-	<a href="https://github.com/amandamxavier/repo-template/blob/main/LICENSE">
+	<a href="https://github.com/CarlosPadaria/library/blob/main/LICENSE">
 		<img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/>
 	</a>
 </p>
