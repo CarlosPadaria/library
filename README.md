@@ -23,7 +23,7 @@
 </h6>
 
 <p align="center">
-    Full-stack library application, made for study purposes ¯\_(ツ)_/¯
+    Full-stack library web application, made for study purposes ¯\_(ツ)_/¯
 </p>
 
 <p align="center">
