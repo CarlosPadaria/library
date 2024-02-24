@@ -133,7 +133,7 @@ This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
 
 ### 🔗 Links
 > [!IMPORTANT]  
-> Please consider reading the [Wiki](https://github.com/CarlosPadaria/library/wiki)
+> Please consider reading the [Wiki](https://github.com/CarlosPadaria/library/wiki) of the project 😉
 
 &nbsp;
 ---
