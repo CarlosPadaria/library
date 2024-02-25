@@ -1,5 +1,5 @@
 # Entities
-***
+
 ## Book
 * id;
 * title;
