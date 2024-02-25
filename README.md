@@ -102,29 +102,7 @@ Describe the deployment process.
 
 &nbsp;
 
-### ✍️ Issues
-
-Feel free to open an issue if you find a bug or have a suggestion.
-
-> [!IMPORTANT]  
-> Fill out the issue template accordingly for accurate and faster responses.
-
-&nbsp;
-
-### 👐 Contributing
-
-> [!NOTE]  
-> This section and file are optional for solo projects.
-
-See [BLA](BLA.md).
-
-&nbsp;
-
-
 ###  📜 License
-<!--
-> [!NOTE]  
-> This section and file are optional for solo projects.-->
 
 This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
 
