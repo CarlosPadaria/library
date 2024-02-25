@@ -43,8 +43,12 @@ In progress...
 
 ### 💻 Technologies
 
-* Frontend: [Inferno.js](https://www.infernojs.org/) including [inferno-bootstrap](https://github.com/jhsware/inferno-bootstrap) library;
-* Backend: [Slim Framework](https://www.slimframework.com/)(PHP) and [Doctrine ORM](https://www.doctrine-project.org/)(PHP).
+#### Frontend
+- [Inferno.js](https://www.infernojs.org/) with the [inferno-bootstrap](https://github.com/jhsware/inferno-bootstrap) library.
+
+#### Backend
+- [Slim Framework](https://www.slimframework.com/) (PHP)
+- [Doctrine ORM](https://www.doctrine-project.org/) (PHP)
 
 &nbsp;
 
@@ -80,7 +84,6 @@ bun run dev
 ```
 -->
 
-&nbsp;
 <!--
 > [!IMPORTANT]  
 > Don't forget to run ESLint and Prettier before committing:
@@ -95,11 +98,11 @@ bun run format
 
 &nbsp;
 -->
-
+<!--
 ### 🚀 Deploy
 
 Describe the deployment process.
-
+-->
 &nbsp;
 
 ###  📜 License
