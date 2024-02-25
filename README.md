@@ -121,6 +121,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 &nbsp;
 -->
 
+See [PROJECT_SPECIFICATIONS.md](PROJECT_SPECIFICATIONS.md).
+
 ###  📜 License
 <!--
 > [!NOTE]  
