@@ -116,7 +116,7 @@ Feel free to open an issue if you find a bug or have a suggestion.
 > [!NOTE]  
 > This section and file are optional for solo projects.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md).
 
 &nbsp;
 
