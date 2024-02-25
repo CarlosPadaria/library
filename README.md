@@ -95,7 +95,7 @@ bun run format
 
 &nbsp;
 -->
-<!--
+
 ### 🚀 Deploy
 
 Describe the deployment process.
@@ -119,14 +119,14 @@ Feel free to open an issue if you find a bug or have a suggestion.
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 &nbsp;
--->
+
 
 ###  📜 License
 <!--
 > [!NOTE]  
 > This section and file are optional for solo projects.-->
 
-<!--This project uses [MIT License](LICENSE). Feel free to copy, redistribute...-->
+This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
 
 &nbsp;
 
