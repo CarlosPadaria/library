@@ -22,5 +22,5 @@
 * Book;
 * User;
 * borrowingDate;
-* isReturned;
+* returnDate;
 
