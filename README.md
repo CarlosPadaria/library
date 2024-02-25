@@ -126,7 +126,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 > [!NOTE]  
 > This section and file are optional for solo projects.-->
 
-This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
+<!--This project uses [MIT License](LICENSE). Feel free to copy, redistribute...-->
 
 &nbsp;
 
