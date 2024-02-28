@@ -44,7 +44,8 @@ In progress...
 ### 💻 Technologies
 
 #### Frontend
-- [Inferno.js](https://www.infernojs.org/) with the [inferno-bootstrap](https://github.com/jhsware/inferno-bootstrap) library.
+- [Alpine.js](https://alpinejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 #### Backend
 - [Slim Framework](https://www.slimframework.com/) (PHP)
