@@ -8,6 +8,7 @@
 * publisher;
 * publishedAt;
 * createdAt;
+* status;
 * updatedAt.
 
 
