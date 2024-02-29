@@ -6,9 +6,11 @@
 * title;
 * author;
 * publisher;
+* status;
 * publishedAt;
 * createdAt;
 * updatedAt.
+
 
 ## User
 * id;
