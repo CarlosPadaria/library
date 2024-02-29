@@ -2,6 +2,7 @@
 
 ## Book
 * id;
+* isbn;
 * title;
 * author;
 * publisher;
@@ -12,6 +13,7 @@
 ## User
 * id;
 * name;
+* uniqueId;
 * phoneNumber;
 * email;
 * createdAt;
