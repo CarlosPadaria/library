@@ -23,7 +23,7 @@ O Administrador deve ser capaz de visualizar o histórico de empréstimos de um 
 O Administrador deve ser capaz de pesquisar Usuários pelo código ou nome.
 
 ### RF6
-O Administrador deve ser capaz de cadastrar empréstimos fornecendo o código de Usuário e o ISBN do Livro.
+O Administrador deve ser capaz de cadastrar empréstimos fornecendo o código de Usuário ou ISBN do Livro.
 
 ### RF7
 O Administrador podera pesquisar empréstimos por ISBN ou código do Usuário
