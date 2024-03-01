@@ -1,46 +1,49 @@
-# Requirements Specification
-## Glossary
-* **Administrator:** The person who is operating the system;
-* **Books:** Refers to the Book entity;
-* **Users:** Refers to the User entity;
-* **Borrowings:** Refers to the Borrowing entity.
+# Especificação de Requisitos
+## Glossário
+* **Administrador:** A pessoa que opera o sistema;
+* **Livros:** Refere-se a entidade Livro;
+* **Usuários:** Refere-se a entidade Usuário;
+* **Empréstimo:** Refere-se a entidade empréstimo.
 
-## Functional Requirements
+## Requisitos funcionais.
 
-### FR1
-The Administrator must be able to register, list, update and delete Books.
+### RF1
+O Administrador deve ser capaz de cadastrar, listar, atualizar e deletar livros.
 
-### FR2
-The Administrator must be able to search the book by title, ISBN or author.
+### RF2
+O Administrador deve ser capaz de procurar os livros por título, ISBN ou autor.
 
-### FR3
-The Administrator must be able to register, read, update and delete Users.
+### RF3
+O Administrador deve ser capaz de cadastrar, listar, atualizar e deletar Usuários.
 
-### FR4
-The Administrator must be able to search Users by unique ID or name.
+### RF4
+O Administrador deve ser capaz de visualizar o histórico de empréstimos de um Usuário.
 
-### FR5
-The Administrator must be able to register borrowings by providing the User unique ID and the book's ISBN.
+### RF5
+O Administrador deve ser capaz de pesquisar Usuários pelo código ou nome.
 
-### FR6
-The Administrator must be able to list and delete borrowings.
+### RF6
+O Administrador deve ser capaz de cadastrar empréstimos fornecendo o código de Usuário e o ISBN do Livro.
 
-### FR7
-The Administrator must be able to return a borrowed Book.
+### RF7
+O Administrador deve ser capaz de listar e deletar empréstimos.
 
-## Non Functional Requirements
-### NR1
-the application must be responsive on all devices.
+### RF8
+O Administrador deve ser capaz de retornar os Livros que foram emprestados.
 
-## Business Rules
-### BR1
-A User cannot borrow a Book that has not been returned, and this must be shown;
+## Requisitos Não Funcionais
+### RNF1
+A aplicação deve estar responsiva em todos os dispositivos
 
-### BR2
-A User can borrow a maximum of 3 Books at the same time.
+## Regras de Negócio
+### RN1
+O Administrador não pode cadastrar o Empréstimo de um Livro que não foi retornado.
 
-### BR3
-If a User is deleted, their related Borrowings are deleted too.
+### RN2
+Um Usuário pode ter no máximo três empréstimos ativos ao mesmo tempo.
 
-### BR4
-Books aren't necessarily deleted. Instead its status is changed to false, and aren't shown on the book list. 
+### RN3
+Se um Usuário for deletado, os seus Empréstimos também deverão ser deletados.
+
+### RN4
+Livros não sao necessariamente deletados. Em vez disso, o seus status é alterado para "I"(inativo)
