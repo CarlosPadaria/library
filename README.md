@@ -23,7 +23,7 @@
 </h6>
 
 <p align="center">
-    Sistema open source de gestão de biblioteca, feita para fins de estudo ¯\_(ツ)_/¯
+    Sistema open source de gestão de biblioteca, feito para fins de estudo ¯\_(ツ)_/¯
 </p>
 
 <p align="center">
