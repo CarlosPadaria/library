@@ -46,4 +46,13 @@ Um Usuário pode ter no máximo três empréstimos ativos ao mesmo tempo.
 Se um Usuário for deletado, os seus Empréstimos também deverão ser deletados.
 
 ### RN4
+Um livro pode ter esses status:
+* Ativo(A);
+* Inativo(I).
+  
+### RN5
 Livros não sao necessariamente deletados. Em vez disso, o seus status é alterado para "I"(inativo)
+
+### RN6
+Livros inativos não aparecem mais na lista de livros, mas podem aparecer na lista de empréstimos.
+
