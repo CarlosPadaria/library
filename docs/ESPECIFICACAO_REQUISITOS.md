@@ -26,7 +26,7 @@ O Administrador deve ser capaz de pesquisar Usuários pelo código ou nome.
 O Administrador deve ser capaz de cadastrar empréstimos fornecendo o código de Usuário ou ISBN do Livro.
 
 ### RF7
-O Administrador podera pesquisar empréstimos por ISBN ou código do Usuário
+O Administrador podera pesquisar empréstimos por ISBN, nome do livro, nome do usuário ou código do Usuário
 
 ### RF8
 O Administrador deve ser capaz de listar e deletar empréstimos.
