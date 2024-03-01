@@ -18,13 +18,14 @@
 * codigo;
 * telefone;
 * email;
+* status;
 * createdAt;
-* updatedAt;
+* updatedAt.
 
 ## Emprestimo
 * id;
 * Livro;
 * Usuario;
 * dataEmprestimo;
-* dataRetorno;
+* dataRetorno.
 
