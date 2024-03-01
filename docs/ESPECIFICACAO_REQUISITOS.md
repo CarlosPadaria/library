@@ -46,12 +46,10 @@ O Administrador não pode cadastrar o Empréstimo de um Livro que não foi retor
 Um Usuário pode ter no máximo três empréstimos ativos ao mesmo tempo.
 
 ### RN3
-Se um Usuário for deletado, os seus Empréstimos também deverão ser deletados.
+Usuários não são necessariamente deletados. Em vez disso, o seu status é alterado para "I"(inativo).
 
 ### RN4
-Um livro pode ter esses status:
-* Ativo(A);
-* Inativo(I).
+Usuários inativos não aparecem mais na lista de usuarios, mas podem aparecer na lista de empréstimos.
   
 ### RN5
 Livros não sao necessariamente deletados. Em vez disso, o seus status é alterado para "I"(inativo)
