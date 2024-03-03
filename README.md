@@ -23,7 +23,7 @@
 </h6>
 
 <p align="center">
-    Full-stack library web application, made for study purposes ¯\_(ツ)_/¯
+    Sistema open source de gestão de biblioteca, feito para fins de estudo ¯\_(ツ)_/¯
 </p>
 
 <p align="center">
@@ -32,19 +32,20 @@
 
 &nbsp;
 
-### ✨ Features
+### ✨ Funcionalidades
 
-In progress...
+Em desenvolvimento 👀
 <!--- **First example:** description here...
 - **Second example:** description here...
 - ...-->
 
 &nbsp;
 
-### 💻 Technologies
+### 💻 Tecnologias
 
 #### Frontend
-- [Inferno.js](https://www.infernojs.org/) with the [inferno-bootstrap](https://github.com/jhsware/inferno-bootstrap) library.
+- [Alpine.js](https://alpinejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 #### Backend
 - [Slim Framework](https://www.slimframework.com/) (PHP)
@@ -52,18 +53,18 @@ In progress...
 
 &nbsp;
 
-### 🧰 Requirements
+### 🧰 Requisitos
 
-In progress...
+Em desenvolvimento 👀
 <!--
 - [Node.js (^20.11.1)](http://nodejs.org/)
 - ...
 -->
 &nbsp;
 
-### 🛠 Usage
+### 🛠 Uso
 
-In progress...
+Em desenvolvimento 👀
 <!--
 1. Clone the repository:
 
@@ -105,9 +106,9 @@ Describe the deployment process.
 -->
 &nbsp;
 
-###  📜 License
+###  📜 Licença
 
-This project uses [MIT License](LICENSE). Feel free to copy, redistribute...
+Este projeto utiliza a [MIT License](LICENSE). Fique a vontade para copiar e redistribuir.
 
 &nbsp;
 
