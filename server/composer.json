@@ -3,7 +3,12 @@
     "autoload": {
         "psr-4": {
             "Library\\": "Library/"
-        }
+        },
+        "files": [
+            "Library/Helper/helper.php",
+            "Library/Config/globals.php",
+            "Library/Config/database_config.php"
+        ]
     },
     "authors": [
         {
@@ -15,10 +20,13 @@
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",
         "doctrine/orm": "^3.0",
-        "league/plates": "^3.5"
+        "league/plates": "^3.5",
+        "symfony/cache": "^7.0",
+        "doctrine/dbal": "^4.0"
     },
     "scripts": {
         "start": "php -S localhost:8080 -t public",
-        "test": "phpunit"
+        "test": "phpunit",
+        "create-schema": "php Library/Config/entity_schema.php orm:schema-tool:create"
     }
 }
