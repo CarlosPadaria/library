@@ -56,8 +56,9 @@ Em desenvolvimento 👀
 ### 🧰 Requisitos
 
 Em desenvolvimento 👀
-<!--
-- [Node.js (^20.11.1)](http://nodejs.org/)
+
+- PHP 8.2.* com PDO habilitado
+<!-- 
 - ...
 -->
 &nbsp;
