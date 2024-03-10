@@ -1,9 +1,12 @@
 <?php
 
+// bin/doctrine
+
 use Doctrine\ORM\Tools\Console\ConsoleRunner;
 use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
 
-require __DIR__ . '/database_config.php';
+// Adjust this path to your actual bootstrap.php
+require __DIR__ . '/../bootstrap.php';
 
 ConsoleRunner::run(
     new SingleManagerProvider($entityManager)

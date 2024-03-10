@@ -6,8 +6,7 @@
         },
         "files": [
             "Library/Helper/helper.php",
-            "Library/Config/globals.php",
-            "Library/Config/database_config.php"
+            "bootstrap.php"
         ]
     },
     "authors": [
@@ -19,14 +18,16 @@
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",
-        "doctrine/orm": "^3.0",
         "league/plates": "^3.5",
+        "doctrine/orm": "^3.1",
         "symfony/cache": "^7.0",
         "doctrine/dbal": "^4.0"
     },
     "scripts": {
         "start": "php -S localhost:8080 -t public",
         "test": "phpunit",
-        "create-schema": "php Library/Config/entity_schema.php orm:schema-tool:create"
+        "create-schema": "php bin/doctrine orm:schema-tool:create",
+        "update-schema": "php bin/doctrine orm:schema-tool:update --force",
+        "drop-schema": "php bin/doctrine orm:schema-tool:drop --force"
     }
 }
