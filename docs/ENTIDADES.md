@@ -7,9 +7,7 @@
 * autor;
 * editora;
 * dataPublicacao;
-* status;
-* createdAt;
-* updatedAt.
+* status.
 
 
 ## Usuario
@@ -18,9 +16,7 @@
 * codigo;
 * telefone;
 * email;
-* status;
-* createdAt;
-* updatedAt.
+* status.
 
 ## Emprestimo
 * id;
