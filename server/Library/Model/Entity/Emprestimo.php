@@ -24,7 +24,7 @@ class Emprestimo
     private DateTime $dataEmprestimo;
 
     #[ORM\Column(type: 'datetime', nullable:true)]
-    private DateTime $dataRetorno = null;
+    private ?DateTime $dataRetorno = null;
 
     public function __construct()
     {

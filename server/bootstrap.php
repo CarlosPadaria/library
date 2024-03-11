@@ -28,7 +28,8 @@ $entityManager = new EntityManager($connection, $config);
 
 /**
  * Define o entityManager como constante a ser utilizada em toda a aplicação
- */
+ * @var EntityManager $entityManager
+ **/
 if (!defined('em')) {
     define('em', $entityManager);
 }

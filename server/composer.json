@@ -25,9 +25,15 @@
     },
     "scripts": {
         "start": "php -S localhost:8080 -t public",
-        "test": "phpunit",
+        "test": [
+            "Composer\\Config::disableProcessTimeout",
+            "phpunit"
+        ],
         "create-schema": "php bin/doctrine orm:schema-tool:create",
         "update-schema": "php bin/doctrine orm:schema-tool:update --force",
         "drop-schema": "php bin/doctrine orm:schema-tool:drop --force"
-    }
+    },
+    "config": {
+        "process-timeout":0
+      }
 }
