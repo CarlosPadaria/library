@@ -16,19 +16,19 @@ class Livro
     private int $id;
 
     #[ORM\Column(type: 'string', unique: true, nullable:false, length: 13)]
-    private string $isbn;
+    private ?string $isbn;
 
     #[ORM\Column(type: 'string', nullable:false)]
-    private string $titulo;
+    private ?string $titulo;
 
     #[ORM\Column(type: 'string', nullable:false)]
-    private string $autor;
+    private ?string $autor;
 
     #[ORM\Column(type: 'string', nullable:false)]
-    private string $editora;
+    private ?string $editora;
 
     #[ORM\Column(type: 'date', nullable:false)]
-    private DateTime $dataPublicacao;
+    private ?DateTime $dataPublicacao;
 
     #[ORM\Column(type: 'string', enumType: Status::class, nullable: false)]
     private Status $status;
@@ -47,7 +47,7 @@ class Livro
         return $this->isbn;
     }
 
-    public function setIsbn(string $isbn): void
+    public function setIsbn(?string $isbn): void
     {
         $this->isbn = $isbn;
     }
@@ -57,7 +57,7 @@ class Livro
         return $this->titulo;
     }
 
-    public function setTitulo(string $titulo): void
+    public function setTitulo(?string $titulo): void
     {
         $this->titulo = $titulo;
     }
@@ -67,7 +67,7 @@ class Livro
         return $this->autor;
     }
 
-    public function setAutor(string $autor): void
+    public function setAutor(?string $autor): void
     {
         $this->autor = $autor;
     }
@@ -77,7 +77,7 @@ class Livro
         return $this->editora;
     }
 
-    public function setEditora(string $editora): void
+    public function setEditora(?string $editora): void
     {
         $this->editora = $editora;
     }
@@ -87,7 +87,7 @@ class Livro
         return $this->dataPublicacao;
     }
 
-    public function setDataPublicacao(DateTime $dataPublicacao): void
+    public function setDataPublicacao(?DateTime $dataPublicacao): void
     {
         $this->dataPublicacao = $dataPublicacao;
     }

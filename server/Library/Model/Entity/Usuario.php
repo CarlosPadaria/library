@@ -12,22 +12,22 @@ class Usuario
     #[ORM\Id]
     #[ORM\Column(type: 'integer')]
     #[ORM\GeneratedValue(strategy:'IDENTITY')]
-    private int $id;
+    private ?int $id;
 
     #[ORM\Column(type: 'string', unique: true, nullable:false, length: 9)]
-    private string $codigo;
+    private ?string $codigo;
 
     #[ORM\Column(type: 'string', nullable:false)]
-    private string $nome;
+    private ?string $nome;
 
     #[ORM\Column(type: 'string', length:13, nullable:false)]
-    private string $telefone;
+    private ?string $telefone;
 
     #[ORM\Column(type: 'string', nullable:false)]
-    private string $email;
+    private ?string $email;
 
     #[ORM\Column(type: 'string', enumType: Status::class, nullable: false)]
-    private Status $status;
+    private ?Status $status;
 
     public function __construct()
     {
@@ -38,12 +38,12 @@ class Usuario
         return $this->id;
     }
 
-    public function getCodigo(): string
+    public function getCodigo(): ?string
     {
         return $this->codigo;
     }
 
-    public function setCodigo(string $codigo): void
+    public function setCodigo(?string $codigo): void
     {
         $this->codigo = $codigo;
     }
@@ -53,7 +53,7 @@ class Usuario
         return $this->nome;
     }
 
-    public function setNome(string $nome): void
+    public function setNome(?string $nome): void
     {
         $this->nome = $nome;
     }
@@ -63,7 +63,7 @@ class Usuario
         return $this->telefone;
     }
 
-    public function setTelefone(string $telefone): void
+    public function setTelefone(?string $telefone): void
     {
         $this->telefone = $telefone;
     }
@@ -73,7 +73,7 @@ class Usuario
         return $this->email;
     }
 
-    public function setEmail(string $email): void
+    public function setEmail(?string $email): void
     {
         $this->email = $email;
     }
@@ -83,7 +83,7 @@ class Usuario
         return $this->status;
     }
 
-    public function setStatus(Status $status): void
+    public function setStatus(?Status $status): void
     {
         $this->status = $status;
     }
