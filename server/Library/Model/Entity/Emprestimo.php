@@ -40,7 +40,7 @@ class Emprestimo
         return $this->livro;
     }
 
-    public function setLivro(Livro $livro)
+    public function setLivro(Livro $livro): void
     {
         $this->livro = $livro;
     }
@@ -50,7 +50,7 @@ class Emprestimo
         return $this->usuario;
     }
 
-    public function setUsuario(Usuario $usuario)
+    public function setUsuario(Usuario $usuario): void
     {
         $this->usuario = $usuario;
     }
@@ -60,7 +60,7 @@ class Emprestimo
         return $this->dataEmprestimo;
     }
 
-    public function setDataEmprestimo(DateTime $dataEmprestimo)
+    public function setDataEmprestimo(DateTime $dataEmprestimo): void
     {
         $this->dataEmprestimo = $dataEmprestimo;
     }
@@ -70,7 +70,7 @@ class Emprestimo
         return $this->dataRetorno;
     }
 
-    public function setDataRetorno(DateTime $dataRetorno)
+    public function setDataRetorno(DateTime $dataRetorno): void
     {
         $this->dataRetorno = $dataRetorno;
     }

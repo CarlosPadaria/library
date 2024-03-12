@@ -43,7 +43,7 @@ class Usuario
         return $this->codigo;
     }
 
-    public function setCodigo(string $codigo)
+    public function setCodigo(string $codigo): void
     {
         $this->codigo = $codigo;
     }
@@ -83,7 +83,7 @@ class Usuario
         return $this->status;
     }
 
-    public function setStatus(Status $status)
+    public function setStatus(Status $status): void
     {
         $this->status = $status;
     }

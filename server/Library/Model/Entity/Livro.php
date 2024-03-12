@@ -47,7 +47,7 @@ class Livro
         return $this->isbn;
     }
 
-    public function setIsbn(string $isbn)
+    public function setIsbn(string $isbn): void
     {
         $this->isbn = $isbn;
     }
@@ -57,7 +57,7 @@ class Livro
         return $this->titulo;
     }
 
-    public function setTitulo(string $titulo)
+    public function setTitulo(string $titulo): void
     {
         $this->titulo = $titulo;
     }
@@ -67,7 +67,7 @@ class Livro
         return $this->autor;
     }
 
-    public function setAutor(string $autor)
+    public function setAutor(string $autor): void
     {
         $this->autor = $autor;
     }
@@ -77,7 +77,7 @@ class Livro
         return $this->editora;
     }
 
-    public function setEditora(string $editora)
+    public function setEditora(string $editora): void
     {
         $this->editora = $editora;
     }
@@ -87,7 +87,7 @@ class Livro
         return $this->dataPublicacao;
     }
 
-    public function setDataPublicacao(DateTime $dataPublicacao)
+    public function setDataPublicacao(DateTime $dataPublicacao): void
     {
         $this->dataPublicacao = $dataPublicacao;
     }
@@ -97,7 +97,7 @@ class Livro
         return $this->status;
     }
 
-    public function setStatus(Status $status)
+    public function setStatus(Status $status): void
     {
         $this->status = $status;
     }
